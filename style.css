@@ -28,7 +28,7 @@ html, body{
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
     position: fixed;
     bottom: 35px;
-    left: calc(50% - 75px);
+    left: calc(50% - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +51,8 @@ html, body{
     text-align: center;
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
     position: fixed;
-    bottom: 40px;
-    left: calc(90% - 75px);
+    bottom: 35px;
+    left: calc(90% - 65px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,8 +70,8 @@ html, body{
     transition: all 0.5s ease-in;
     border: solid 3px white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
-    bottom: 25px;
-    left: 45px;
+    bottom: 30px;
+    left: 20px;
     z-index: 2;
 }
 
