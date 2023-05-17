@@ -1,0 +1,40 @@
+<html lang=”en”>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Camera App</title>
+    <!-- Link to your main style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="border-box">
+
+<div class="box">
+<!--    <h2>Backgrounds & Borders</h2>-->
+</div>
+<!-- Camera -->
+<main id="camera">
+    <!-- Camera sensor -->
+    <canvas id="camera--sensor"></canvas>
+    <!-- Camera view -->
+    <video id="camera--view" autoplay playsinline></video>
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+    <!-- Camera trigger -->
+<!--    <button id="camera&#45;&#45;trigger">촬영</button>-->
+    <button id="camera--trigger">
+        <img src="/img/camera2.png" alt="buttonpng" border="0" />
+    </button>
+<!--    <button id="camera&#45;&#45;switch">전환</button>-->
+    <button id="camera--switch">
+        <img src="/img/rotation.png" alt="buttonpng" border="0" />
+    </button>
+</main>
+<!-- Reference to your JavaScript file -->
+<script src="app.js"></script>
+</body>
+</html>
