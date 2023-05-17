@@ -21,14 +21,14 @@ html, body{
     background-color: #006494;
     color: white;
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 0px;
     text-align: center;
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
     position: fixed;
     bottom: 35px;
-    left: calc(50% - 60px);
+    left: calc(50% - 55px);
     display: flex;
     justify-content: center;
     align-items: center;
