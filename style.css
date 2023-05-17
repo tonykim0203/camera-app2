@@ -12,7 +12,7 @@
 }
 
 #camera--trigger {
-    width: 150px;
+    width: 100px;
     background-color: #006494;
     color: white;
     font-size: 14px;
@@ -36,7 +36,7 @@
 }
 
 #camera--switch{
-    width: 110px;
+    width: 60px;
     background-color: #4B92D4;
     color: white;
     font-size: 14px;
