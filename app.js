@@ -9,7 +9,7 @@ const cameraView = document.querySelector("#camera--view"),
     cameraSwitch = document.querySelector("#camera--switch");
 
 // Track the currently active camera
-var activeCamera = "user";
+var activeCamera = "environment";
 
 // Access the device camera and stream to cameraView
 function cameraStart() {
