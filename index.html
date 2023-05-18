@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Camera App</title>
-    <!-- Link to your main style sheet-->
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+<div>
+    <main id="camera">
 
-<main id="camera">
-    
-    <canvas id="camera--sensor"></canvas>
+        <canvas id="camera--sensor"></canvas>
+        <!--카메라 화면-->
+        <video id="camera--view" autoplay playsinline></video>
 
-    <video id="camera--view" autoplay playsinline></video>
-    
-    <img src="camera_frame4.png" id="layer_img"/>
+        <img src="/img/camera_frame4.png" id="layer_img"/>
 
-    <img src="//:0" alt="" id="camera--output">
-    
-    <button id="camera--trigger">
-        <img src="camera3.png" alt="buttonpng" border="0" />
-    </button>
-
-</main>
-<script src="app.js"></script>
+        <img src="//:0" alt="" id="camera--output">
+        <!--촬영 버튼-->
+        <button id="camera--trigger">
+            <img src="/img/camera3.png" alt="buttonpng" border="0" />
+        </button>
+    </main>
+    <script src="app_2.js"></script>
+</div>
 </body>
+
 </html>
