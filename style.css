@@ -4,6 +4,7 @@ html, body{
   height: 100%;
   width: 100%;
 }
+
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
@@ -14,8 +15,24 @@ html, body{
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
     filter: FlipH;
+    width: 100%;
 }
 
+.camera-content {
+    position: relative;
+    z-index: 1;
+}
+
+/*서류 프레임 레이어*/
+#layer_img {
+    width: 80%;
+    height: auto;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+}
+
+/*촬영 버튼*/
 #camera--trigger {
     width: 100px;
     background-color: #006494;
@@ -41,6 +58,7 @@ html, body{
     height: 40%;
 }
 
+/*카메라 전환 버튼*/
 #camera--switch{
     width: 60px;
     background-color: #4B92D4;
@@ -65,14 +83,15 @@ html, body{
     height: 35%;
 }
 
+/*촬영된 img*/
 .taken{
     height: 100px!important;
     width: 100px!important;
     transition: all 0.5s ease-in;
     border: solid 3px white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
-    bottom: 30px;
-    left: 20px;
+    top: 20px;
+    right: 20px;
     z-index: 2;
 }
 
