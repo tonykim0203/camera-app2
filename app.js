@@ -14,6 +14,7 @@ function cameraStart() {
         .then(function(stream) {
             track = stream.getTracks()[0];
             cameraView.srcObject = stream;
+            cameraView.classList.add("mirror"); //Add mirror class
         })
         .catch(function(error) {
             console.error("Oops. Something is broken.", error);
