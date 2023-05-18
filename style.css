@@ -23,6 +23,10 @@ html, body{
     z-index: 1;
 }
 
+.mirror {
+    transform: scaleX(-1);
+}
+
 /*서류 프레임 레이어*/
 #layer_img {
     width: 80%;
