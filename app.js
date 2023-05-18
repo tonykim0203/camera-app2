@@ -1,6 +1,5 @@
 // Set constraints for the video stream
-// var constraints = { video: { facingMode: "environment" }, audio: false };
-var constraints = { video: true, audio: false };
+var constraints = { video: { facingMode: "environment" }, audio: false };
 
 // Define constants
 const cameraView = document.querySelector("#camera--view"),
@@ -15,7 +14,6 @@ function cameraStart() {
         .then(function(stream) {
             track = stream.getTracks()[0];
             cameraView.srcObject = stream;
-            cameraView.classList.add("mirror"); //Add mirror class
         })
         .catch(function(error) {
             console.error("Oops. Something is broken.", error);
